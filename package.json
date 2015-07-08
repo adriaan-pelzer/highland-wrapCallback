@@ -1,0 +1,26 @@
+{
+  "name": "highland-wrapcallback",
+  "version": "0.0.1",
+  "description": "A replacement for highland.js' wrapCallback function, which addresses the issue of some functions needing to be run with its parent in context (first argument of \"apply\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriaan-pelzer/highland-wrapCallback.git"
+  },
+  "keywords": [
+    "Highland.js",
+    "wrapCallback"
+  ],
+  "author": "Adriaan Pelzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriaan-pelzer/highland-wrapCallback/issues"
+  },
+  "homepage": "https://github.com/adriaan-pelzer/highland-wrapCallback#readme",
+  "dependencies": {
+    "highland": "^2.5.1"
+  }
+}
